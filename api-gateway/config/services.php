@@ -30,4 +30,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+     'users' => [
+        'base' => env('USER_SERVICE_URL', 'http://127.0.0.1:8001'),
+    ],
+
+    'orders' => [
+        'base' => env('ORDER_SERVICE_URL', 'http://127.0.0.1:8002'),
+    ],
+
 ];
